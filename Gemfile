@@ -19,6 +19,8 @@ group :development do
   gem "webmock", "~> 1.21"
 end
 
+gem 'signet', git: 'https://github.com/Alma-Mobility/signet.git'
+
 platforms :jruby do
   group :development do
   end
